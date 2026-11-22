@@ -104,22 +104,28 @@ runDemo();
 
 ---
 
-## 📡 All 7 Endpoints Reference
+## 📡 All 10 Endpoints Reference (v1.2.0)
 
 1. **`GET /api/v1/x/tweet?id={tweet_id_or_url}`**
-   Extracts full tweet text, author profile, real-time views, likes, retweets, replies, bookmarks, HD photos/videos, and quoted tweet.
+   Extracts full tweet text, author profile, real-time views, likes, retweets, replies, quotes, bookmarks, HD photos/videos, Community Notes, and quoted tweet.
 2. **`GET /api/v1/x/user?username={handle}`**
    Instant lookup of any X account's followers, following, tweet count, bio, joined date, avatar, and banner.
 3. **`GET /api/v1/x/timeline?username={handle}&limit=20`**
    Fetches the latest public timeline tweets of any user or KOL sorted newest-first.
 4. **`GET /api/v1/x/batch-tweets?ids={id1,id2,...}`**
    Hydrates up to **25 tweets in parallel in 1 API request** (saves up to 96% quota).
-5. **`GET /api/v1/crypto/token-x-intel?ca={contract_address}`**
+5. **`GET /api/v1/x/thread-unroll?id={tweet_id_or_url}&max_depth=8`**
+   Automatically walks reply chains and author self-threads to reconstruct an entire **Twitter Thread** (`tweets[]` + `combined_text`) in a single request.
+6. **`GET /api/v1/crypto/token-x-intel?ca={contract_address}`**
    **4-in-1 Web3 Sniper Audit**: Concurrently fetches DexScreener 5m/1h orderflow acceleration + unlocks hidden on-chain Twitter/X links via **Solana Mainnet RPC `getAsset` & IPFS** + checks **RugCheck** dev serial-rugger history & whale concentration + hydrates the linked X Tweet/Profile engagement.
-6. **`GET /api/v1/crypto/meme-radar?chain={all|solana|base}&limit=10`**
+7. **`GET /api/v1/crypto/meme-radar?chain={all|solana|base}&limit=10`**
    Live surging meme coin orderflow radar ranked by 5m buy pressure, volume acceleration (`vol_accel_ratio`), and average ticket size.
-7. **`GET /api/v1/crypto/search-x-tokens?q={keyword}&limit=5`**
+8. **`GET /api/v1/crypto/search-x-tokens?q={keyword}&limit=5`**
    Search tokens by narrative/ticker and auto-hydrate their linked X Tweet or User Profile in one call.
+9. **`GET /api/v1/crypto/dex-boosts-live?chain={all|solana|base}&limit=10`**
+   Live feed of tokens whose creators just paid **$299–$4,999 for DexScreener Golden-Ticker Lightning Boosts**, enriched with live 5m/1h orderflow acceleration and X links (`~188ms`).
+10. **`GET /api/v1/crypto/new-token-profiles?chain={all|solana|base}&limit=10`**
+    Live feed of newly launched tokens that just paid to claim official DexScreener Token Profiles (custom banner, icon, bio, and official X link), enriched with live market orderflow.
 
 ---
 

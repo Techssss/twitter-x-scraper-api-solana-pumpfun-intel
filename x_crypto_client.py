@@ -51,6 +51,15 @@ class XCryptoIntelClient:
     def search_x_tokens(self, query: str, limit: int = 5) -> dict:
         return self._get("/api/v1/crypto/search-x-tokens", {"q": query, "limit": limit})
 
+    def get_thread_unroll(self, tweet_id_or_url: str, max_depth: int = 8) -> dict:
+        return self._get("/api/v1/x/thread-unroll", {"id": tweet_id_or_url, "max_depth": max_depth})
+
+    def get_dex_boosts_live(self, chain: str = "solana", limit: int = 10) -> dict:
+        return self._get("/api/v1/crypto/dex-boosts-live", {"chain": chain, "limit": limit})
+
+    def get_new_token_profiles(self, chain: str = "all", limit: int = 10) -> dict:
+        return self._get("/api/v1/crypto/new-token-profiles", {"chain": chain, "limit": limit})
+
 
 if __name__ == "__main__":
     key = os.environ.get("RAPIDAPI_KEY", "YOUR_RAPIDAPI_KEY_HERE")
