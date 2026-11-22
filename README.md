@@ -130,3 +130,7 @@ runDemo();
 ---
 
 🔗 **Subscribe & Test Live in Your Browser:** [https://rapidapi.com/Techssss/api/twitter-x-real-time-data-crypto-x-intel](https://rapidapi.com/Techssss/api/twitter-x-real-time-data-crypto-x-intel)
+
+---
+
+> 🎵 **Sister API by Techssss:** [**TikTok & TikTok Shop (OEC) Global 35-Endpoint API — No-Watermark HD Video, Whisper VTT Subtitles, Free AI Translation, StrongBeat Audio & Live FLV/HLS**](https://rapidapi.com/Techssss/api/tiktok-data-tiktok-shop-no-watermark-video)
