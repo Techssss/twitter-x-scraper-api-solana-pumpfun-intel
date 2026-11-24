@@ -1,12 +1,13 @@
 # ⚡ Twitter (X) Real-Time Data & Solana Pump.fun Crypto X-Intel API (Python & Node.js SDK)
 
 [![RapidAPI](https://img.shields.io/badge/RapidAPI-Get%20Free%20API%20Key-0055FF?style=for-the-badge&logo=rapid)](https://rapidapi.com/Techssss/api/twitter-x-real-time-data-crypto-x-intel)
+[![Apify Store](https://img.shields.io/badge/Apify%20Store-Run%20Cloud%20Actor%20(No%20Limits)-FF4F00?style=for-the-badge&logo=apify)](https://apify.com/nghianguyen2/twitter-x-tweet-scraper-solana-crypto)
 [![Uptime](https://img.shields.io/badge/Service%20Level-100%25-brightgreen?style=for-the-badge)](https://rapidapi.com/Techssss/api/twitter-x-real-time-data-crypto-x-intel)
 [![Latency](https://img.shields.io/badge/Edge%20Latency-%3C300ms-00f0ff?style=for-the-badge)](https://rapidapi.com/Techssss/api/twitter-x-real-time-data-crypto-x-intel)
 
-Official Python & Node.js client examples for the **[Twitter (X) Real-Time Data & Crypto X-Intel API](https://rapidapi.com/Techssss/api/twitter-x-real-time-data-crypto-x-intel)** — an ultra-fast (`<300ms`), zero-cookie REST API for scraping public **X (Twitter) Tweets, User Profiles, Timelines, 25x Batch Tweets**, and unlocking **hidden on-chain Twitter/X metadata + RugCheck forensics for 1-minute-old Solana & Pump.fun tokens**.
+Official Python & Node.js client examples for the **[Twitter (X) Real-Time Data & Crypto X-Intel API](https://rapidapi.com/Techssss/api/twitter-x-real-time-data-crypto-x-intel)** and **[Apify Store Cloud Actor (v2.1)](https://apify.com/nghianguyen2/twitter-x-tweet-scraper-solana-crypto)** — an ultra-fast (`<300ms`), zero-cookie REST API & Cloud Scraper for extracting public **X (Twitter) Tweets, 1080p HD MP4 Videos, User Profiles, KOL Timelines, 25x Batch Tweets, Chronological Thread Unrolls**, and unlocking **hidden on-chain Twitter/X metadata + RugCheck forensics for 1-minute-old Solana & Pump.fun tokens**.
 
-👉 **[Get Your Instant Free API Key on RapidAPI Here](https://rapidapi.com/Techssss/api/twitter-x-real-time-data-crypto-x-intel)** *(No Twitter/X account, cookies, or OAuth required!)*
+👉 **[Get Your Instant Free API Key on RapidAPI Here](https://rapidapi.com/Techssss/api/twitter-x-real-time-data-crypto-x-intel)** | ☁️ **[Run Directly on Apify Store (Zero Setup, No 50-Tweet Minimum)](https://apify.com/nghianguyen2/twitter-x-tweet-scraper-solana-crypto)**
 
 ---
 
