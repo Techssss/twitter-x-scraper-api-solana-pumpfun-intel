@@ -1,13 +1,13 @@
 # ⚡ Twitter (X) Real-Time Data & Solana Pump.fun Crypto X-Intel API (Python & Node.js SDK)
 
 [![RapidAPI](https://img.shields.io/badge/RapidAPI-Get%20Free%20API%20Key-0055FF?style=for-the-badge&logo=rapid)](https://rapidapi.com/Techssss/api/twitter-x-real-time-data-crypto-x-intel)
-[![Apify Store](https://img.shields.io/badge/Apify%20Store-Run%20Cloud%20Actor%20(No%20Limits)-FF4F00?style=for-the-badge&logo=apify)](https://apify.com/nghianguyen2/twitter-x-tweet-scraper-solana-crypto)
+[![Apify Store](https://img.shields.io/badge/Apify%20Store-Run%20Cloud%20Actor%20(No%20Limits)-FF4F00?style=for-the-badge&logo=apify)](https://apify.com/nghianguyen2/twitter-scraper)
 [![Uptime](https://img.shields.io/badge/Service%20Level-100%25-brightgreen?style=for-the-badge)](https://rapidapi.com/Techssss/api/twitter-x-real-time-data-crypto-x-intel)
 [![Latency](https://img.shields.io/badge/Edge%20Latency-%3C300ms-00f0ff?style=for-the-badge)](https://rapidapi.com/Techssss/api/twitter-x-real-time-data-crypto-x-intel)
 
-Official Python & Node.js client examples for the **[Twitter (X) Real-Time Data & Crypto X-Intel API](https://rapidapi.com/Techssss/api/twitter-x-real-time-data-crypto-x-intel)** and **[Apify Store Cloud Actor (v2.1)](https://apify.com/nghianguyen2/twitter-x-tweet-scraper-solana-crypto)** — an ultra-fast (`<300ms`), zero-cookie REST API & Cloud Scraper for extracting public **X (Twitter) Tweets, 1080p HD MP4 Videos, User Profiles, KOL Timelines, 25x Batch Tweets, Chronological Thread Unrolls**, and unlocking **hidden on-chain Twitter/X metadata + RugCheck forensics for 1-minute-old Solana & Pump.fun tokens**.
+Official Python & Node.js client examples for the **[Twitter (X) Real-Time Data & Crypto X-Intel API](https://rapidapi.com/Techssss/api/twitter-x-real-time-data-crypto-x-intel)** and **[Apify Store Cloud Actor (v2.1)](https://apify.com/nghianguyen2/twitter-scraper)** — an ultra-fast (`<300ms`), zero-cookie REST API & Cloud Scraper for extracting public **X (Twitter) Tweets, 1080p HD MP4 Videos, User Profiles, KOL Timelines, 25x Batch Tweets, Chronological Thread Unrolls**, and unlocking **hidden on-chain Twitter/X metadata + RugCheck forensics for 1-minute-old Solana & Pump.fun tokens**.
 
-👉 **[Get Your Instant Free API Key on RapidAPI Here](https://rapidapi.com/Techssss/api/twitter-x-real-time-data-crypto-x-intel)** | ☁️ **[Run Directly on Apify Store (Zero Setup, No 50-Tweet Minimum)](https://apify.com/nghianguyen2/twitter-x-tweet-scraper-solana-crypto)**
+👉 **[Get Your Instant Free API Key on RapidAPI Here](https://rapidapi.com/Techssss/api/twitter-x-real-time-data-crypto-x-intel)** | ☁️ **[Run Directly on Apify Store (Zero Setup, No 50-Tweet Minimum)](https://apify.com/nghianguyen2/twitter-scraper)**
 
 ---
 
@@ -135,3 +135,22 @@ runDemo();
 ---
 
 > 🎵 **Sister API by Techssss:** [**TikTok & TikTok Shop (OEC) Global 35-Endpoint API — No-Watermark HD Video, Whisper VTT Subtitles, Free AI Translation, StrongBeat Audio & Live FLV/HLS**](https://rapidapi.com/Techssss/api/tiktok-data-tiktok-shop-no-watermark-video)
+---
+
+## Full Zero-Cookie Cloud Scraper Ecosystem on Apify Store (From $0.10 / 1,000)
+
+All Actors below run on **native Mobile / MTOP protocols** (**No Login, No Cookies, MCP-Ready** for Claude Desktop, Cursor, ChatGPT & n8n):
+
+| Platform | Apify Store Actor | Key Capabilities |
+| :--- | :--- | :--- |
+| **TikTok & TikTok Shop** | [**TikTok Shop Scraper**](https://apify.com/nghianguyen2/tiktok-shop-scraper) | Products, SKUs, GMV sales, KOL affiliates, No-Watermark 1080p MP4 & Whisper VTT transcripts |
+| **Twitter (X) & Crypto** | [**Twitter Scraper**](https://apify.com/nghianguyen2/twitter-scraper) | Tweets, timelines, replies, HD MP4 videos, Solana / Pump.fun & DexScreener X-Intel |
+| **Shopee (8 Countries)** | [**Shopee Scraper**](https://apify.com/nghianguyen2/shopee-scraper) | VN/ID/TH/PH/MY/SG/TW/BR exact unrounded sold counts, stock, Shopee Live bag & affiliate links |
+| **Goofish / Xianyu (闲鱼)** | [**Goofish Xianyu Scraper**](https://apify.com/nghianguyen2/goofish-xianyu-scraper) | Working H5 keyword search (bypasses PC search block), 28-field item detail, seller credit & comps |
+| **AliExpress Global** | [**AliExpress Scraper**](https://apify.com/nghianguyen2/aliexpress-scraper) | Keyword search, full SKU variant matrix, verified photo reviews, Choice deals & shipping ETA |
+| **Full Store Portfolio** | [**Browse all Actors (`nghianguyen2`)**](https://apify.com/nghianguyen2) | Includes **Lazada (6 SEA)**, **Temu**, **Pump.fun**, **DexScreener** & **Shopee Live** specialized Actors |
+
+## Enterprise High-Volume API & Custom Scrapers
+
+Need **unlimited throughput**, dedicated raw REST endpoints, custom anti-bot scrapers, or private integrations?
+- **Direct Telegram (Fastest — Same-Day Response)**: [**@WinJ_sui**](https://t.me/WinJ_sui)
