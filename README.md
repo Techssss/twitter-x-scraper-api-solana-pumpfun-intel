@@ -1,156 +1,130 @@
-# ⚡ Twitter (X) Real-Time Data & Solana Pump.fun Crypto X-Intel API (Python & Node.js SDK)
+# Twitter (X) Zero-Cookie Scraper & Solana / Pump.fun Crypto X-Intel SDK (Apify Cloud)
 
-[![RapidAPI](https://img.shields.io/badge/RapidAPI-Get%20Free%20API%20Key-0055FF?style=for-the-badge&logo=rapid)](https://rapidapi.com/Techssss/api/twitter-x-real-time-data-crypto-x-intel)
-[![Apify Store](https://img.shields.io/badge/Apify%20Store-Run%20Cloud%20Actor%20(No%20Limits)-FF4F00?style=for-the-badge&logo=apify)](https://apify.com/nghianguyen2/twitter-scraper)
-[![Uptime](https://img.shields.io/badge/Service%20Level-100%25-brightgreen?style=for-the-badge)](https://rapidapi.com/Techssss/api/twitter-x-real-time-data-crypto-x-intel)
-[![Latency](https://img.shields.io/badge/Edge%20Latency-%3C300ms-00f0ff?style=for-the-badge)](https://rapidapi.com/Techssss/api/twitter-x-real-time-data-crypto-x-intel)
+[![Run on Apify Store](https://img.shields.io/badge/Apify%20Store-Run%20Twitter%20Scraper-00C853?style=for-the-badge&logo=apify)](https://apify.com/jistudio/twitter-scraper)
+[![Apify Hosted MCP](https://img.shields.io/badge/Hosted%20MCP-mcp.apify.com-7C3AED?style=for-the-badge)](https://mcp.apify.com/?actors=jistudio/twitter-scraper)
+[![All JiStudio Actors](https://img.shields.io/badge/Apify%20Store-JiStudio%20Portfolio-06B6D4?style=for-the-badge&logo=apify)](https://apify.com/jistudio)
 
-Official Python & Node.js client examples for the **[Twitter (X) Real-Time Data & Crypto X-Intel API](https://rapidapi.com/Techssss/api/twitter-x-real-time-data-crypto-x-intel)** and **[Apify Store Cloud Actor (v2.1)](https://apify.com/nghianguyen2/twitter-scraper)** — an ultra-fast (`<300ms`), zero-cookie REST API & Cloud Scraper for extracting public **X (Twitter) Tweets, 1080p HD MP4 Videos, User Profiles, KOL Timelines, 25x Batch Tweets, Chronological Thread Unrolls**, and unlocking **hidden on-chain Twitter/X metadata + RugCheck forensics for 1-minute-old Solana & Pump.fun tokens**.
+Official Python & Node.js client examples for **[JiStudio Twitter (X) Scraper & Crypto X-Intel on Apify Store](https://apify.com/jistudio/twitter-scraper)** — a lightweight, zero-cookie cloud scraper for extracting public **X (Twitter) Tweets, 1080p HD MP4 Videos, User Profiles, Multi-KOL Timelines, 25x Batch Tweets, Chronological Thread Unrolls**, and **Solana / Base / Pump.fun & DexScreener Token X-Intel**.
 
-👉 **[Get Your Instant Free API Key on RapidAPI Here](https://rapidapi.com/Techssss/api/twitter-x-real-time-data-crypto-x-intel)** | ☁️ **[Run Directly on Apify Store (Zero Setup, No 50-Tweet Minimum)](https://apify.com/nghianguyen2/twitter-scraper)**
+- **[Run Live on Apify Store (Zero Setup, No 50-Tweet Minimum)](https://apify.com/jistudio/twitter-scraper)**
+- **[Connect Hosted Remote MCP (`mcp.apify.com`)](https://mcp.apify.com/?actors=jistudio/twitter-scraper)**
+- **[Get Your Free Apify API Token](https://console.apify.com/account/integrations)**
 
 ---
 
-## 🔥 Why Developers Use This Instead of the $5,000/mo Official X API
+## Why Developers Use `jistudio/twitter-scraper` Instead of the $5,000/mo Official X API
 
-| Feature | Official X API Pro | Cookie-Based Scrapers | **This API ([RapidAPI Hub](https://rapidapi.com/Techssss/api/twitter-x-real-time-data-crypto-x-intel))** |
+| Feature | Official X API Pro | Cookie-Based Scrapers | **JiStudio on Apify Store** |
 | :--- | :---: | :---: | :---: |
-| **Starting Price** | `$200 - $5,000 / mo` | `$20 - $50 / mo` | **`$0 Free Tier` / `$6.99 Pro`** |
-| **X Login Cookies Required?** | OAuth App Review | Yes (Accounts get banned) | **Zero Cookies / Zero Ban Risk** |
-| **Average Response Latency** | `400ms` | `1,800ms+` (Residential proxies) | **`~270ms` (Cloudflare Global Edge)** |
-| **25x Batch Tweet Lookup** | Paid per post | ❌ Not supported | **✅ 25 Tweets in 1 API Request** |
-| **Solana RPC Hidden X Unlock + RugCheck Audit** | ❌ No | ❌ No | **✅ Built-in 4-in-1 Endpoint** |
+| **Pricing** | `$200 - $5,000 / mo` | `$20 - $50 / mo` | **Pay-Per-Event (Free Apify tier included)** |
+| **X Login Cookies Required?** | OAuth App Review | Yes (Accounts get suspended) | **Zero Cookies / Zero Account Risk** |
+| **Minimum Tweet Charge** | Monthly flat fee | Often 50-tweet minimum | **No minimum — extract 1 to 5,000 items** |
+| **25x Batch Tweet Lookup** | Paid per post | Usually unsupported | **Up to 25 Tweets in 1 batch action** |
+| **Solana / Base Crypto X-Intel** | No | No | **Built-in Token CA -> Official X + Market Intel** |
+| **Native MCP for AI Agents** | Manual wrapper | No | **1-click via `mcp.apify.com`** |
 
 ---
 
-## 🚀 Quick Start (Get Your API Key in 30 Seconds)
+## Quick Start (30 Seconds)
 
-1. Go to **[Twitter (X) Real-Time Data & Crypto X-Intel on RapidAPI](https://rapidapi.com/Techssss/api/twitter-x-real-time-data-crypto-x-intel)**.
-2. Click **Subscribe to Test** and select the **Basic ($0.00 / Free)** or **Pro ($6.99/mo)** plan.
-3. Copy your `X-RapidAPI-Key` and run any of the examples below!
+1. Open **[Twitter Scraper on Apify Store](https://apify.com/jistudio/twitter-scraper)** to test directly in your browser.
+2. Or grab your free `APIFY_TOKEN` from [Apify Account Integrations](https://console.apify.com/account/integrations) and run via Python, Node.js, cURL, or MCP.
 
----
-
-## 🐍 Python Examples (`x_crypto_client.py`)
+### Python Example (`x_crypto_client.py`)
 
 ```python
 import requests
 
-RAPIDAPI_KEY = "YOUR_RAPIDAPI_KEY_HERE"
-RAPIDAPI_HOST = "twitter-x-real-time-data-crypto-x-intel.p.rapidapi.com"
+APIFY_TOKEN = "YOUR_APIFY_TOKEN"
+ENDPOINT = f"https://api.apify.com/v2/acts/jistudio~twitter-scraper/run-sync-get-dataset-items?token={APIFY_TOKEN}&clean=true"
 
-HEADERS = {
-    "x-rapidapi-key": RAPIDAPI_KEY,
-    "x-rapidapi-host": RAPIDAPI_HOST,
-}
+# 1. Single Tweet Detail + HD MP4 Video
+tweet = requests.post(ENDPOINT, json={
+    "action": "tweet",
+    "tweetIdOrUrl": "https://x.com/solana/status/2125078025377378634",
+}, timeout=90).json()
+print("Tweet:", tweet[:1])
 
-# 1. Get Full Tweet Details & Real-Time Metrics (Views, Likes, Retweets, Media, Quote)
-resp = requests.get(
-    f"https://{RAPIDAPI_HOST}/api/v1/x/tweet",
-    headers=HEADERS,
-    params={"id": "https://x.com/WatcherGuru/status/2124323299639296287"},
-)
-print("Tweet Metrics:", resp.json())
+# 2. KOL / User Latest Timeline Tweets
+timeline = requests.post(ENDPOINT, json={
+    "action": "timeline",
+    "username": "solana",
+    "maxItems": 15,
+}, timeout=90).json()
+print("Timeline count:", len(timeline))
 
-# 2. Get X User Profile & Follower Count (<270ms)
-user = requests.get(
-    f"https://{RAPIDAPI_HOST}/api/v1/x/user",
-    headers=HEADERS,
-    params={"username": "lookonchain"},
-)
-print("User Profile:", user.json())
-
-# 3. Get Latest Timeline Posts from Any KOL or News Account
-timeline = requests.get(
-    f"https://{RAPIDAPI_HOST}/api/v1/x/timeline",
-    headers=HEADERS,
-    params={"username": "WatcherGuru", "limit": 10},
-)
-print("Latest Tweets:", timeline.json())
-
-# 4. 4-in-1 Solana / Pump.fun On-Chain Hidden X Unlock + RugCheck Forensics + X Hydration
-token_intel = requests.get(
-    f"https://{RAPIDAPI_HOST}/api/v1/crypto/token-x-intel",
-    headers=HEADERS,
-    params={"ca": "EEULtyiNJLcSxfrFnB92Tk9jcaRM8UbRhKfJFKxvuaN1"},
-)
-print("Solana Token X-Intel & RugCheck Verdict:", token_intel.json())
+# 3. Solana / Base Token Contract -> Official X Handle, Price & Tweets
+token_intel = requests.post(ENDPOINT, json={
+    "action": "token_x_intel",
+    "contractAddress": "DezXAZ8z7PnrnRJjz3wXBoRgixCa6xjnB7YaB1pPB263",
+}, timeout=90).json()
+print("Token X-Intel:", token_intel[:1])
 ```
 
----
-
-## 🟢 Node.js / TypeScript Example (`example_node.js`)
+### Node.js Example (`example_node.js`)
 
 ```javascript
-const RAPIDAPI_KEY = "YOUR_RAPIDAPI_KEY_HERE";
-const RAPIDAPI_HOST = "twitter-x-real-time-data-crypto-x-intel.p.rapidapi.com";
+const APIFY_TOKEN = process.env.APIFY_TOKEN || "YOUR_APIFY_TOKEN";
+const ENDPOINT = `https://api.apify.com/v2/acts/jistudio~twitter-scraper/run-sync-get-dataset-items?token=${encodeURIComponent(APIFY_TOKEN)}&clean=true`;
 
 async function runDemo() {
-  // Batch hydrate multiple tweets in a single call
-  const res = await fetch(
-    `https://${RAPIDAPI_HOST}/api/v1/x/batch-tweets?ids=20,2124323299639296287`,
-    {
-      headers: {
-        "x-rapidapi-key": RAPIDAPI_KEY,
-        "x-rapidapi-host": RAPIDAPI_HOST,
-      },
-    }
-  );
-  const data = await res.json();
-  console.log(JSON.stringify(data, null, 2));
+  const res = await fetch(ENDPOINT, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({
+      action: "batch_tweets",
+      batchTweetIds: "2125078025377378634,1812258574049157405,20",
+    }),
+  });
+  console.log(JSON.stringify(await res.json(), null, 2));
 }
 
 runDemo();
 ```
 
----
-
-## 📡 All 10 Endpoints Reference (v1.2.0)
-
-1. **`GET /api/v1/x/tweet?id={tweet_id_or_url}`**
-   Extracts full tweet text, author profile, real-time views, likes, retweets, replies, quotes, bookmarks, HD photos/videos, Community Notes, and quoted tweet.
-2. **`GET /api/v1/x/user?username={handle}`**
-   Instant lookup of any X account's followers, following, tweet count, bio, joined date, avatar, and banner.
-3. **`GET /api/v1/x/timeline?username={handle}&limit=20`**
-   Fetches the latest public timeline tweets of any user or KOL sorted newest-first.
-4. **`GET /api/v1/x/batch-tweets?ids={id1,id2,...}`**
-   Hydrates up to **25 tweets in parallel in 1 API request** (saves up to 96% quota).
-5. **`GET /api/v1/x/thread-unroll?id={tweet_id_or_url}&max_depth=8`**
-   Automatically walks reply chains and author self-threads to reconstruct an entire **Twitter Thread** (`tweets[]` + `combined_text`) in a single request.
-6. **`GET /api/v1/crypto/token-x-intel?ca={contract_address}`**
-   **4-in-1 Web3 Sniper Audit**: Concurrently fetches DexScreener 5m/1h orderflow acceleration + unlocks hidden on-chain Twitter/X links via **Solana Mainnet RPC `getAsset` & IPFS** + checks **RugCheck** dev serial-rugger history & whale concentration + hydrates the linked X Tweet/Profile engagement.
-7. **`GET /api/v1/crypto/meme-radar?chain={all|solana|base}&limit=10`**
-   Live surging meme coin orderflow radar ranked by 5m buy pressure, volume acceleration (`vol_accel_ratio`), and average ticket size.
-8. **`GET /api/v1/crypto/search-x-tokens?q={keyword}&limit=5`**
-   Search tokens by narrative/ticker and auto-hydrate their linked X Tweet or User Profile in one call.
-9. **`GET /api/v1/crypto/dex-boosts-live?chain={all|solana|base}&limit=10`**
-   Live feed of tokens whose creators just paid **$299–$4,999 for DexScreener Golden-Ticker Lightning Boosts**, enriched with live 5m/1h orderflow acceleration and X links (`~188ms`).
-10. **`GET /api/v1/crypto/new-token-profiles?chain={all|solana|base}&limit=10`**
-    Live feed of newly launched tokens that just paid to claim official DexScreener Token Profiles (custom banner, icon, bio, and official X link), enriched with live market orderflow.
+### Hosted MCP for Claude Desktop / Cursor / Antigravity
+Connect directly to Apify's managed Streamable HTTP MCP Server:
+```text
+https://mcp.apify.com/?actors=jistudio/twitter-scraper
+```
+Header: `Authorization: Bearer YOUR_APIFY_TOKEN`
 
 ---
 
-🔗 **Subscribe & Test Live in Your Browser:** [https://rapidapi.com/Techssss/api/twitter-x-real-time-data-crypto-x-intel](https://rapidapi.com/Techssss/api/twitter-x-real-time-data-crypto-x-intel)
+## All 11 Supported Modes (`action`)
+
+1. **`auto_start_urls`**: Paste any mix of X Tweet URLs, Profile URLs, or Solana/Base Contract Addresses — auto-detected automatically.
+2. **`timeline`**: Fetch latest public timeline tweets from one or multiple KOL handles (`twitterHandles`).
+3. **`tweet`**: Single tweet metrics (views, likes, retweets, quotes, bookmarks), media & HD MP4 video URLs.
+4. **`batch_tweets`**: Hydrate up to 25 Tweet IDs in parallel in one run.
+5. **`thread_unroll`**: Walk author self-reply chains to reconstruct full threads.
+6. **`user`**: Profile bio, followers, following, tweet count, verification & banner.
+7. **`token_x_intel`**: Map any Solana/Base/ETH/BSC Contract Address to official X handle, live price, liquidity & latest tweets.
+8. **`meme_radar`**: Live surging meme token radar with linked official X accounts.
+9. **`search_x_tokens`**: Search crypto tickers/narratives and auto-hydrate linked X profiles/tweets.
+10. **`dex_boosts_live`**: Live feed of DexScreener boosted tokens + X socials.
+11. **`new_token_profiles`**: Newly claimed DexScreener token profiles + X verification.
 
 ---
 
-> 🎵 **Sister API by Techssss:** [**TikTok & TikTok Shop (OEC) Global 35-Endpoint API — No-Watermark HD Video, Whisper VTT Subtitles, Free AI Translation, StrongBeat Audio & Live FLV/HLS**](https://rapidapi.com/Techssss/api/tiktok-data-tiktok-shop-no-watermark-video)
----
-
-## Full Zero-Cookie Cloud Scraper Ecosystem on Apify Store (From $0.10 / 1,000)
-
-All Actors below run on **native Mobile / MTOP protocols** (**No Login, No Cookies, MCP-Ready** for Claude Desktop, Cursor, ChatGPT & n8n):
+## Full Zero-Browser Cloud Scraper Ecosystem by JiStudio on Apify Store
 
 | Platform | Apify Store Actor | Key Capabilities |
 | :--- | :--- | :--- |
-| **TikTok & TikTok Shop** | [**TikTok Shop Scraper**](https://apify.com/nghianguyen2/tiktok-shop-scraper) | Products, SKUs, GMV sales, KOL affiliates, No-Watermark 1080p MP4 & Whisper VTT transcripts |
-| **Twitter (X) & Crypto** | [**Twitter Scraper**](https://apify.com/nghianguyen2/twitter-scraper) | Tweets, timelines, replies, HD MP4 videos, Solana / Pump.fun & DexScreener X-Intel |
-| **Shopee (8 Countries)** | [**Shopee Scraper**](https://apify.com/nghianguyen2/shopee-scraper) | VN/ID/TH/PH/MY/SG/TW/BR exact unrounded sold counts, stock, Shopee Live bag & affiliate links |
-| **Goofish / Xianyu (闲鱼)** | [**Goofish Xianyu Scraper**](https://apify.com/nghianguyen2/goofish-xianyu-scraper) | Working H5 keyword search (bypasses PC search block), 28-field item detail, seller credit & comps |
-| **AliExpress Global** | [**AliExpress Scraper**](https://apify.com/nghianguyen2/aliexpress-scraper) | Keyword search, full SKU variant matrix, verified photo reviews, Choice deals & shipping ETA |
-| **Full Store Portfolio** | [**Browse all Actors (`nghianguyen2`)**](https://apify.com/nghianguyen2) | Includes **Lazada (6 SEA)**, **Temu**, **Pump.fun**, **DexScreener** & **Shopee Live** specialized Actors |
+| **Twitter (X) & Crypto** | [**Twitter Scraper**](https://apify.com/jistudio/twitter-scraper) | Tweets, timelines, threads, HD MP4 videos & Solana / DexScreener X-Intel |
+| **TikTok & TikTok Shop** | [**TikTok Shop Scraper**](https://apify.com/jistudio/tiktok-shop-scraper) | Products, SKUs, seller ratings, KOL affiliates, HD no-watermark MP4 & VTT transcripts |
+| **TikTok Transcripts** | [**TikTok Transcript Scraper**](https://apify.com/jistudio/tiktok-transcript-scraper) | Fast bulk voiceover `.vtt` subtitles & plaintext script extraction |
+| **TikTok Trends** | [**TikTok Trends Scraper**](https://apify.com/jistudio/tiktok-trends-scraper) | Regional For-You viral feeds & Top 30 music charts |
+| **Shopee (8 Countries)** | [**Shopee Scraper**](https://apify.com/jistudio/shopee-scraper) | VN/ID/TH/PH/MY/SG/TW/BR product search, exact sold counts, shops & live |
+| **1688 China Wholesale** | [**1688 Wholesale Scraper**](https://apify.com/jistudio/1688-wholesale-scraper) | Factory supplier pricing tiers, SKUs, MOQ & wholesale catalog extraction |
+| **AliExpress Global** | [**AliExpress Scraper**](https://apify.com/jistudio/aliexpress-scraper) | Global keyword search, SKU variants, verified reviews & shipping ETA |
+| **Lazada (6 SEA Markets)** | [**Lazada Scraper**](https://apify.com/jistudio/lazada-scraper) | SEA marketplace product search, prices, ratings & seller catalogs |
+| **Goofish / Xianyu** | [**Goofish Xianyu Scraper**](https://apify.com/jistudio/goofish-xianyu-scraper) | Secondhand search, item details & seller listings |
+| **Full Store Portfolio** | [**Browse All Actors (`JiStudio`)**](https://apify.com/jistudio) | Complete suite of lightweight pay-per-event cloud scrapers |
 
-## Enterprise High-Volume API & Custom Scrapers
+---
 
-Need **unlimited throughput**, dedicated raw REST endpoints, custom anti-bot scrapers, or private integrations?
-- **Direct Telegram (Fastest — Same-Day Response)**: [**@WinJ_sui**](https://t.me/WinJ_sui)
+## Enterprise & Custom APIs
+Need dedicated high-volume endpoints or custom scrapers?
+- **Telegram**: [@WinJ_sui](https://t.me/WinJ_sui)
+- **Apify Store Profile**: [https://apify.com/jistudio](https://apify.com/jistudio)

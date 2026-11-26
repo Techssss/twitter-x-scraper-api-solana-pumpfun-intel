@@ -1,26 +1,27 @@
 {
-  "name": "twitter-x-scraper-api-solana-pumpfun-intel",
+  "name": "twitter-x-crypto-intel-apify-sdk",
   "version": "2.1.0",
-  "description": "Fastest Twitter (X) Tweet Scraper, 1080p MP4 Video Downloader, KOL Timeline Monitor, Thread Unroller & Solana/DexScreener Crypto X-Intel API & Apify Actor.",
+  "description": "Zero-cookie Twitter (X) Scraper & Solana / Pump.fun Crypto X-Intel Python & Node.js SDK powered by JiStudio on Apify Store (https://apify.com/jistudio/twitter-scraper).",
   "main": "example_node.js",
   "scripts": {
-    "start": "node example_node.js",
-    "demo": "node example_node.js"
+    "start": "node example_node.js"
   },
   "keywords": [
+    "apify",
+    "apify-actor",
     "twitter-scraper",
     "x-scraper",
     "solana",
-    "dexscreener",
     "pumpfun",
+    "dexscreener",
     "crypto-intel",
-    "apify-actor",
-    "rapidapi"
+    "mcp"
   ],
-  "homepage": "https://rapidapi.com/Techssss/api/twitter-x-real-time-data-crypto-x-intel",
+  "author": "JiStudio",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/Techssss/twitter-x-scraper-api-solana-pumpfun-intel.git"
   },
-  "license": "MIT"
+  "homepage": "https://apify.com/jistudio/twitter-scraper"
 }
